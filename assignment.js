@@ -1,3 +1,5 @@
+// https://github.com/mdmahbubulalam/assignment--3-problem-solving/blob/master/assignment.js
+
 // Convert Kilometer to Meter
 
 function kilometerToMeter(kilometer) {
@@ -9,8 +11,6 @@ function kilometerToMeter(kilometer) {
         return "Distance cannot be negative or empty";
     }
 }
-var convertToMeter = kilometerToMeter(23);
-console.log(convertToMeter);
 
 
 // Calculate total budget
@@ -37,9 +37,6 @@ function budgetCalculator(watch, phone, laptop) {
     return totalPrice;
 }
 
-var total = budgetCalculator(10, 10, 10);
-console.log(total);
-
 
 // Calculate Total Hotel Cost
 
@@ -62,7 +59,6 @@ function hotelCost(days) {
             var remaining = days - 20;
             var afterTwentyDays = remaining * 50;
             totalCost = firstTenDays + secondTenDays + afterTwentyDays;
-
         }
 
     } else {
@@ -70,11 +66,7 @@ function hotelCost(days) {
     }
 
     return totalCost;
-
 }
-
-var totalRent = hotelCost(2);
-console.log(totalRent);
 
 
 // Find longest name
@@ -97,6 +89,3 @@ function megaFriend(name) {
 
     return longestName;
 }
-
-var largeName = megaFriend(['Limon', 'Alam', 'Mahbub']);
-console.log(largeName);
