@@ -1,4 +1,4 @@
-// https://github.com/mdmahbubulalam/assignment--3-problem-solving/blob/master/assignment.js
+// https://github.com/mdmahbubulalam/assignment--3-problem-solving
 
 // Convert Kilometer to Meter
 
